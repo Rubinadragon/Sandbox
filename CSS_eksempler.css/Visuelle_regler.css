@@ -1,0 +1,82 @@
+p{
+
+    font-size: 18px;
+  
+  }
+
+  p{
+
+    color: #fff , white , rgb(255,255,255) , hsl(0, 0%, 100%);
+  
+  }
+
+  p{
+
+    background-color: #fff , white , rgb(255,255,255) , hsl(0, 0%, 100%);
+  
+  }
+
+/*Text-align funker kun på tekstlige elementer, du får ikke flyttet på andre elementer ved å bruke text-align*/
+
+p{
+
+  text-align: left , center , right;
+
+}
+
+p{
+
+    font-family: "Arial", sans-serif;
+  
+  }
+
+  p{
+
+    font-weight: 400 , 600 , 900 , normal , bold , bolder;
+  
+  }
+
+  div{
+
+    /*helt gjennomsiktig*/
+  
+    opacity: 0;
+    
+  
+    /*helt synlig*/
+  
+    opacity: 1;
+  
+  }
+
+  section{
+
+    background-image: url('bilde.jpg');
+  
+  }
+
+  .element {
+
+    background-image: url('bilde.jpg');
+  
+    background-repeat: no-repeat;
+  
+    background-size: cover;
+  
+    background-position: center center;
+  
+    background-attachment: fixed;
+  
+  }
+
+  div{
+
+    /*Filsti til bilde man har på samme område (lokalt eller server) som html og css filene*/
+    
+    background-image: url("../bildemappe/bildenavn.png");
+    
+    /*Henter bilde fra en ekstern kilde, her så henter vi bilde fra bildetjenesten FreeImages, bilde som er brukt her er kreditert brukeren: https://www.freeimages.com/photographer/johnnyberg-50785*/
+    
+    background-image: url("https://images.freeimages.com/images/large-previews/9f9/kittens-2-1370892.jpg");
+    
+    }

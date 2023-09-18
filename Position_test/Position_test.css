@@ -1,0 +1,45 @@
+main{
+    max-width: 1500px;
+    width: 100%;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgb(138, 162, 48);
+    text-align: center;
+}
+
+p{
+    z-index: 5;
+    position: relative;
+}
+
+#rel{
+    position: relative;
+}
+
+#abs{
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+#sticky{
+    position: sticky;
+    top: 0;
+    z-index: 7;
+}
+
+#static{
+
+}
+
+#fixed{
+    position: fixed;
+    top: 0;
+    z-index: 6;
+}
+

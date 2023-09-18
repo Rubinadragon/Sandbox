@@ -1,0 +1,15 @@
+/*når vi skriver til en class så bruker syntaxen .classname*/
+
+.red-txt{
+
+    color:red;
+  
+  }
+  
+  /*når vi skriver til en id så bruker vi syntaxen #idname*/
+  
+  #welcome-heading{
+  
+    color:blue;
+  
+  }

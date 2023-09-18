@@ -1,0 +1,29 @@
+p{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/*Float*/
+
+.box{
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgb(138, 162, 48);
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+#right{
+    float: right;
+}
+
+#left{
+    float: left;
+}
+
+#clear{
+    clear: both;
+}

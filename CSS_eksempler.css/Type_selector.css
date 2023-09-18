@@ -1,0 +1,7 @@
+/*skriver til html elementet og alle p-elementer vil bli påvirket*/
+
+p {
+
+    color:blue;
+  
+  }

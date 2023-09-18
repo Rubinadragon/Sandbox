@@ -1,0 +1,11 @@
+#main-menu{
+
+    position:fixed;
+  
+    top:0;
+  
+    /*Setter en unormal høy verdi for å sikre meg at dette elementet alltid ligger lengst frem og ikke blir overlappet av andre elementer*/
+  
+    z-index:999;
+  
+  }

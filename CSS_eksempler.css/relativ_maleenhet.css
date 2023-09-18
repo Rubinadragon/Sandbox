@@ -1,0 +1,27 @@
+/*Ta utgangspunkt i at section er foreldre elementet til article*/
+
+section{
+
+    width:500px;
+  
+  }
+  
+  article{
+  
+    /*siden article er barne elementet til section og section har en absolutt bredde på 500px så blir bredden til article 250px siden vi har satt bredden til å være 50%*/
+  
+    width: 50%;
+  
+    font-size: 15px;
+  
+    height: 300px;
+  
+    /*siden vi har satt passing til å være 1.5em og denne målenheten tar utgangspunkt i font-str til elementet så kan vi ''oversette'' nåværende padding til å være 22.5px, hadde vi satt den til 1em så kunne vi oversatt den til 15px*/
+  
+    padding: 1.5em;
+  
+    /*margin regnes ut ifra font str til root elementet som er html taggen, by default så er den 16px med mindre vi setter noe annet. Derfor så tilsvarer 1rem 16px i dette eksemplet*/
+  
+    margin: 1rem;
+  
+  }

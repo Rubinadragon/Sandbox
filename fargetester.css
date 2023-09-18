@@ -1,0 +1,53 @@
+.container{
+    position: relative;
+    transform-style: preserve-3d;
+    height: 700px;
+    overflow: hidden;
+    font-family: "arial";
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+}
+
+.box{
+    width:15%;
+    height: 200px;
+    float: left;
+    margin: 10px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: rgb(150, 125, 67);
+}
+
+/*hex*/
+
+#hex{
+    background-color: #44ae73;
+}
+
+/*rgb*/
+#rgb{
+    background-color: rgb(68, 174, 115)
+}
+
+#hsl{
+    background-color: hsl(146.6, 43.8%, 47.5%)
+}
+
+#opacity{
+    opacity: 0.5;
+    background-color: #44ae73;
+}
+
+#rgba{
+    background-color: rgba(68, 174, 115, 0.5);
+    color: rgba(140, 0, 61, 1);
+}
+
+#hsla{
+    background-color: hsla(146.6, 43.8%, 47.5%, 0.5);
+    color: rgb(96, 80, 173);
+}

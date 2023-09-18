@@ -1,0 +1,7 @@
+/*Stjerne selektoren påvirker ALLE HTML-elementene på siden, denne skal kun brukes når dere skal endre på verdien til box-sizing*/
+
+*{
+
+    box-sizing:border-box;
+  
+  }
