@@ -1,0 +1,33 @@
+/*Web-sikre fonter*/
+body {
+
+    /*Her er det Arial som er den web-sikre fonten, sans-serif er lagt med som en fallback skulle ikke nettleseren eller maskinen klare å lese arial. Da bruker nettleseren eller maskinen den første sans-serif fonten som ligger i OS-et (operativsystemet)*/
+  
+    font-family: Arial, sans-serif;
+  
+  }
+
+  /*@font-face*/
+  @font-face {
+
+    font-family: 'EgendefinertSkrift';
+  
+    src: url('egendefinert-skrift.woff2') format('woff2');
+  
+  }
+  
+  body {
+  
+    font-family: 'EgendefinertSkrift', sans-serif;
+  
+  }
+  
+  /* Importerer fra Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+
+  font-family: 'Open Sans', sans-serif;
+
+}

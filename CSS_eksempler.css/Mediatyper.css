@@ -1,0 +1,108 @@
+/*eksempel på @media-regelen*/
+/*CSS som gjelder ved utskrift*/
+
+@media print{
+  
+
+}
+
+/*CSS som gjelder ved skjerm*/
+
+@media screen{
+  
+
+}
+
+/*CSS som gjelder ved opplesning*/
+
+@media speech{
+  
+
+}
+
+/*CSS som gjelder når skjermen blir smalere enn 600px*/
+
+@media only screen and (max-width: 600px) {
+  
+
+}
+
+/*Print*/
+
+/*importere print som mediatype*/
+/*all den vanlige css-en din*/
+
+p{
+
+    color:blue;
+  
+    font-size:14px;
+  
+  }
+  
+
+  
+  /*hvordan man importerer print som media type*/
+  
+  @media print{
+  
+    /*Alt man vil endre på ved utskrift skriver man som ''vanlig'', men innenfor krøllparantesene (måkene/kråkene som Ann-Charlott kaller de) til @media print*/
+  
+    p{
+  
+      font-size:18px;
+  
+    }
+  
+  }
+
+  /*CSS for opplesning*/
+  /*CSS for å styre hvordan overskriftene blir lest opp*/
+
+h1, h2, h3, h4, h5, h6
+
+{
+
+  voice-family: paul;
+
+  voice-stress: moderate;
+
+  cue-before: url(../audio/ping.wav);
+
+  voice-volume: medium 6dB;
+
+}
+
+/*Hvordan importere speech som mediatype*/
+/*Hvordan paragrafen blir skriftlig på nettsiden*/
+
+p{
+
+    font-family: arial;
+  
+    font-weight:normal;
+  
+    font-size:16px;
+  
+  }
+  
+  /*All CSS som skrives innenfor {} til @media speech gjelder ved opplesning*/
+  
+  @media speech{
+  
+    /*Hvordan paragrafen blir ved opplesning på nettsiden*/
+  
+    p{
+  
+      voice-family: paul;
+  
+      voice-stress: moderate;
+  
+      voice-volume: medium 6dB;
+  
+    }
+  
+  }
+
+
+

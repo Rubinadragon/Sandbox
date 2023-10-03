@@ -1,0 +1,11 @@
+/*Anta at du har definert følgende CSS-regler for en klasse kalt ".flex-box"*/
+
+.flex-box {
+
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+  }

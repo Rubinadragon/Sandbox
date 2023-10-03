@@ -1,0 +1,35 @@
+/*pseudoelemeneter*/
+/*syntax*/
+
+selektor::pseudoelementer{
+
+    background-color: #000;
+  
+  }
+  
+  /*ekte eksempel*/
+  
+  a::after{
+  
+    content: ‘’,’’;
+  
+  }
+
+  /*pseudokonseper*/
+  /*Syntax*/
+
+selektor:pseudoklasse{
+
+    background-color: #000;
+  
+  }
+  
+  /*Ekte eksempel*/
+  
+  a:hover{
+  
+    background-color:#000;
+  
+    color:#fff;
+  
+  }

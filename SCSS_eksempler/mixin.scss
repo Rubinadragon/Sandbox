@@ -1,0 +1,52 @@
+@mixin default-box {
+
+    max-width: 500px;
+
+    width: 100%;
+
+    margin: 0 auto;
+
+    background-color: #efefef;
+
+    padding: 1rem;
+
+}
+
+/*Når jeg skal gjenbruke denne så er det viktig at jeg skriver verdiene til parameterene i riktig rekkefølge, slik som de står under.*/
+
+@mixin reuse-box ($maxW, $width, $marg, $backC, $pad) {
+
+    max-width: $maxW;
+
+    width: $width;
+
+    margin: $marg;
+
+    background-color: $backC;
+
+    padding: $pad;
+
+}
+
+
+/*Under kan vi se mixinene i bruk*/
+
+/*Når vi skal bruke en mixin i et regelsett så må vi bruke @include metoden for å kunne inkludere mixinen, etter @include så skriver du navnet på mixinen du vil bruke */
+
+.grey-box{
+
+  @include default-box;
+
+}
+
+section{
+
+  /*Når vi skriver mixins med parametere så er det viktig at man skriver verdiene i den rekkefølgen de har blitt satt når vi laget mixinen. hvis jeg hadde endret 1000px til #efefef så hadde det ikke gått siden max-widt kan ikke ha verdien #efefef*/
+
+  @include reuse-box (1000px, 100%, 0 auto, #efefef, 1rem)
+
+  /*Det som er fint med mixins er at de som nevnt er gjebrukbar kode som gjør at vi slipper å repetere mye kode når vi skriver, og hvis det er noe som ikke er inkludert i den mixinen som vi også vil ha på elementet så kan vi skrive det som 'vanlig' i regelsettet.*/
+
+  //height:50vh;
+
+}

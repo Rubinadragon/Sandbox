@@ -1,0 +1,22 @@
+/*fortsettelse fra extending_scss*/
+/* Når denne SASS-koden kompileres til vanlig CSS, vil resultatet være */
+.flex-box, .content-area {
+
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+  
+  }
+  
+  .content-area {
+  
+    background-color: #3498db;
+  
+    color: #ffffff;
+  
+  }
+
+  /* Som du kan se har ".content-area" arvet stilene fra ".flex-box" og begge klassene deler de samme CSS-reglene. 
+  Dette gjør koden mer effektiv og enklere å vedlikeholde, spesielt når du har flere elementer som skal ha de samme stilene */

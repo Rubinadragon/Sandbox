@@ -1,0 +1,13 @@
+/*fortsettelse fra extending_scss.css*/
+/*Nå vil du bruke de samme stilene på en annen klasse kalt ".content-area" uten å måtte skrive dem på nytt. 
+Du kan oppnå dette ved å bruke "@extend" i SASS, som følger*/
+
+.content-area {
+
+    @extend .flex-box; // Her arver .content-area stilene fra .flex-box
+  
+    background-color: #3498db;
+  
+    color: #ffffff;
+  
+  }

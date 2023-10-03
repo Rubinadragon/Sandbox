@@ -1,0 +1,19 @@
+$gray: #333;
+
+$random: #23d6c8;
+
+$max-width: 100px;
+
+div {
+
+  color: $gray;
+
+  width: $max-width;
+
+    span {
+
+      color:$random;
+
+    }
+
+}

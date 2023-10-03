@@ -1,0 +1,54 @@
+/*Fargenavn*/
+p{
+
+    color:white;
+  
+    background-color: blue;
+  
+  }
+
+  /*hexa*/
+  p{
+
+    color:#ffffff;
+  
+    background-color: #0000ff;
+  
+  }
+
+/*rgb*/
+p{
+
+    color:rgb(0, 0, 0);
+  
+    background-color: rgb(0, 0, 255);
+  
+  }
+
+  /*hsl*/
+  p{
+
+    color:hsl(0, 0%, 100%);
+  
+    background-color:hsl(230, 100%, 50%);
+  
+  }
+
+  /*Alpha-verdier, fargegjennomsiktighet*/
+  p.hsla{
+
+    color:hsla(0, 0%, 100%, 0.5);
+  
+    background-color:hsl(230, 100%, 50%, 0.5);
+  
+  }
+  
+  p.rgba{
+  
+    color:rgba(0, 0, 0, 0.5);
+  
+    background-color: rgb(0, 0, 255, 0.5);
+  
+  }
+
+  
